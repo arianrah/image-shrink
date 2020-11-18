@@ -1,0 +1,22 @@
+{
+	"name": "image-shrink",
+	"version": "1.0.0",
+	"description": "image size optimizer",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/arianrah/image-shrink.git"
+	},
+	"author": "Arian Rahimi",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/arianrah/image-shrink/issues"
+	},
+	"homepage": "https://github.com/arianrah/image-shrink#readme",
+	"devDependencies": {
+		"electron": "^11.0.1"
+	}
+}
