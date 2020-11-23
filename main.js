@@ -69,6 +69,19 @@ const menu = [
 	{
 		role: 'fileMenu'
 	},
+	...(!isMac
+		? [
+				{
+					label: 'Help',
+					submenu: [
+						{
+							label: 'About',
+							click: createAboutWindow
+						}
+					]
+				}
+		  ]
+		: []),
 	...(isDev
 		? [
 				{
